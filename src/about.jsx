@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Building4 from './images/building-4.jpg'; 
+import Project1 from './images/project-1.jpeg'; 
 
 export default function About() {
   return (
@@ -31,7 +31,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <img
-              src={Building4}
+              src={Project1}
               alt="AI Allied Limited construction workers"
               className="rounded-2xl shadow-2xl w-full h-auto object-cover"
             />
@@ -43,11 +43,11 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <p className="text-gray-700 leading-relaxed text-lg mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p className="text-xl text-gray-700 leading-relaxed mb-4">
+              Founded with a vision to transform landscapes, AI Allied Limited has been a leader in construction excellence since its inception. As of today, we continue to deliver innovative, high-quality projects across residential, commercial, and infrastructural sectors. Our commitment to sustainability and precision ensures every structure we build stands as a testament to durability and design.
             </p>
-            <p className="text-gray-700 leading-relaxed text-lg mb-6">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Guided by our motto, "Building the Future, Preserving the Past," we blend cutting-edge technology with time-honored craftsmanship. From modern homes to iconic mosques, our diverse portfolio reflects our dedication to client satisfaction and community impact. Partner with us to bring your vision to life with unparalleled expertise.
             </p>
             <button
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}

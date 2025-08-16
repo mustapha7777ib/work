@@ -55,7 +55,7 @@ export default function Services() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-4">Our Services</h2>
           <div className="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            AI Allied Limited delivers comprehensive construction services, combining innovation, quality, and expertise to bring your vision to life.
+            AI Allieds Limited delivers comprehensive construction services, combining innovation, quality, and expertise to bring your vision to life.
           </p>
         </motion.div>
 

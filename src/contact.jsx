@@ -1,7 +1,31 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { useState } from 'react';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prev) => ({ ...prev, [id]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Simulate form submission (e.g., log to console or send to backend)
+    console.log('Form submitted:', formData);
+    // Clear form inputs
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
+
   return (
     <motion.section
       id="contact"
@@ -37,7 +61,7 @@ export default function Contact() {
           >
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-2xl font-semibold text-black mb-6">Send Us a Message</h3>
-              <div className="grid gap-6">
+              <form onSubmit={handleSubmit} className="grid gap-6">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
                     Your Name
@@ -46,7 +70,10 @@ export default function Contact() {
                     type="text"
                     id="name"
                     placeholder="Enter your name"
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full p-4 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    aria-label="Your name"
                   />
                 </div>
                 <div>
@@ -57,7 +84,10 @@ export default function Contact() {
                     type="email"
                     id="email"
                     placeholder="Enter your email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full p-4 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    aria-label="Your email"
                   />
                 </div>
                 <div>
@@ -68,15 +98,20 @@ export default function Contact() {
                     id="message"
                     placeholder="Tell us about your project"
                     rows="5"
+                    value={formData.message}
+                    onChange={handleChange}
                     className="w-full p-4 bg-gray-50 border border-gray-300 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-600"
+                    aria-label="Your message"
                   ></textarea>
                 </div>
                 <button
+                  type="submit"
                   className="bg-red-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition duration-300 w-full"
+                  aria-label="Send message"
                 >
                   Send Message
                 </button>
-              </div>
+              </form>
             </div>
           </motion.div>
 
@@ -92,8 +127,8 @@ export default function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <Mail size={24} className="text-red-600" />
-                  <a href="mailto:alliedsltd@hotmail.com" className="hover:text-red-600 transition duration-300">
-                    alliedsltd@hotmail.com
+                  <a href="mailto:info@aaliedltd.com" className="hover:text-red-600 transition duration-300">
+                    info@aaliedltd.com
                   </a>
                 </li>
                 <li className="flex items-center gap-3">

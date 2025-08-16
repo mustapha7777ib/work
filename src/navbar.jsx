@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Logo from './images/logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,8 +31,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="text-3xl font-extrabold">
-          <span className="text-black">AI Allied</span>
-          <span className="text-red-600"> Limited</span>
+        <img src={Logo} alt="AI Allieds Limited Logo" className="h-10 w-10 inline-block mr-2" />
         </div>
         <ul className="hidden md:flex space-x-10 text-black font-medium">
           {['home', 'about', 'services', 'projects', 'contact'].map((item) => (

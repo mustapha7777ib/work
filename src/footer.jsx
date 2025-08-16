@@ -26,7 +26,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-extrabold text-white mb-4">AI Allied Limited</h3>
+            <h3 className="text-2xl font-extrabold text-white mb-4">AI Allieds Limited</h3>
             <p className="text-sm text-gray-300">
               Building the Future, Preserving the Past
             </p>
@@ -63,8 +63,8 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300 flex flex-col items-center">
               <li className="flex items-center gap-2">
                 <Mail size={18} className="text-red-600" />
-                <a href="mailto:alliedsltd@hotmail.com" className="hover:text-red-600 transition duration-300">
-                  alliedsltd@hotmail.com
+                <a href="mailto:Alliedssltd@hotmail.com" className="hover:text-red-600 transition duration-300">
+                  Alliedssltd@hotmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -83,7 +83,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.8 }}
         >
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} AI Allied Limited. All Rights Reserved.
+            © {new Date().getFullYear()} AI Allieds Limited. All Rights Reserved.
           </p>
         </motion.div>
       </div>

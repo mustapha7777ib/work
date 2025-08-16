@@ -1,30 +1,47 @@
 import { motion } from 'framer-motion';
-import Building4 from './images/building-4.jpg'; 
+import Project1 from './images/project-1.jpeg';
+import Project2 from './images/project-2.jpeg';
+import Project3 from './images/project-3.jpeg';
+import Project4 from './images/project-4.jpeg';
+import Project5 from './images/project-5.jpeg';
+import Project6 from './images/project-6.jpeg';
 
 const projects = [
   {
-    img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e',
-    title: 'Commercial Complex',
-    description: 'A state-of-the-art commercial building with modern amenities.',
-    category: 'Commercial',
+    img: Project1,
+    title: 'Mosque',
+    description: 'A serene place of worship with intricate designs and modern facilities, fostering community and spirituality.',
+    category: 'Religious',
   },
   {
-    img: 'https://images.unsplash.com/photo-1501183638710-841dd1904471',
-    title: 'Residential Tower',
-    description: 'Luxury apartments with stunning city views and eco-friendly design.',
-    category: 'Commercial',
+    img: Project2,
+    title: 'Duplex',
+    description: 'A stylish duplex with spacious interiors and contemporary architecture, designed for luxury living.',
+    category: 'Residential',
   },
   {
-    img: Building4,
-    title: 'Infrastructure Project',
-    description: 'A robust bridge built to withstand extreme conditions.',
-    category: 'Commercial',
+    img: Project3,
+    title: 'Swimming Pool',
+    description: 'A state-of-the-art recreational pool with advanced filtration and aesthetic landscaping.',
+    category: 'Recreational',
   },
   {
-    img: Building4,
-    title: 'Urban Renovation',
-    description: 'Revitalizing historic structures with modern functionality.',
-    category: 'Commercial',
+    img: Project4,
+    title: 'Apartments',
+    description: 'Modern multi-unit apartments offering eco-friendly features and stunning city views.',
+    category: 'Residential',
+  },
+  {
+    img: Project5,
+    title: 'Modern House',
+    description: 'An innovative single-family home with smart technology and sustainable design elements.',
+    category: 'Residential',
+  },
+  {
+    img: Project6,
+    title: 'Network Mast',
+    description: 'A robust telecommunications mast engineered for durability and seamless connectivity.',
+    category: 'Infrastructure',
   },
 ];
 
@@ -64,12 +81,14 @@ export default function Projects() {
               whileHover={{ scale: 1.05 }}
             >
               <div className="relative">
-                <img
-                  src={project.img}
-                  alt={project.title}
-                  className="w-full h-[50vh] object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <a href={project.img} target="_blank" rel="noopener noreferrer" aria-label={`Open full-size image of ${project.title} in a new window`}>
+                  <img
+                    src={project.img}
+                    alt={project.title}
+                    className="w-full h-[50vh] object-cover transition-transform duration-500 group-hover:scale-105 cursor-pointer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
               </div>
               <div className="p-8">
                 <p className="text-sm text-red-600 font-semibold mb-2">{project.category}</p>
