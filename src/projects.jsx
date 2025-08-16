@@ -9,9 +9,9 @@ import Project6 from './images/project-6.jpeg';
 const projects = [
   {
     img: Project1,
-    title: 'CONSTRUCTION OF OFFICE BLOCK BY SB ENERGY RESOURCES LTD, FOR KRPC, KADUNA',
-    description: 'A modern office block built by SB Energy Resources Ltd to meet KRPC’s administrative and operational needs in Kaduna.',
-    category: 'Commercial',
+    title: 'CONSTRUCTION OF WORSHIP CENTERS FOR QATAR CHARITY ORGANIZATION, ABUJA',
+    description: 'A serene place of worship with intricate designs and modern facilities, fostering community and spirituality.',
+    category: 'Religious',
   },
   {
     img: Project2,
@@ -109,3 +109,4 @@ export default function Projects() {
     </motion.section>
   );
 }
+
