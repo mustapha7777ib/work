@@ -22,8 +22,8 @@ const projects = [
   {
     img: Project3,
     title: 'CONSTRUCTION OF DEWOO CAMP FOR SB ENERGY RESOURCES LTD, KRPC, KADUNA',
-    description: 'A state-of-the-art recreational pool with advanced filtration and aesthetic landscaping.',
-    category: 'Recreational',
+    description: 'A fully equipped camp facility built to support SB Energy Resources Ltd’s operations for KRPC in Kaduna.',
+    category: 'Expatiate Camp',
   },
   {
     img: Project4,

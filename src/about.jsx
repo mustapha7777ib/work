@@ -43,12 +43,9 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <p className="text-xl text-gray-700 leading-relaxed mb-4">
-              Founded with a vision to transform landscapes, AI Allied Limited has been a leader in construction excellence since its inception. As of today, we continue to deliver innovative, high-quality projects across residential, commercial, and infrastructural sectors. Our commitment to sustainability and precision ensures every structure we build stands as a testament to durability and design.
-            </p>
-            <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              Guided by our motto, "Building the Future, Preserving the Past," we blend cutting-edge technology with time-honored craftsmanship. From modern homes to iconic mosques, our diverse portfolio reflects our dedication to client satisfaction and community impact. Partner with us to bring your vision to life with unparalleled expertise.
-            </p>
+          <p className="text-gray-700 text-base sm:text-lg max-w-xl mx-auto mb-10">
+            AI Allieds Limited was fully incorporated under the laws of the Federal Republic of Nigeria in the year 1998, with registration number RC 346914. Founded with a vision to deliver innovative and sustainable construction solutions, we specialize in creating high-quality residential, commercial, and infrastructural projects that transform communities and exceed client expectations.
+          </p>
             <button
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               className="bg-red-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition duration-300"
