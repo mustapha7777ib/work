@@ -127,8 +127,8 @@ export default function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <Mail size={24} className="text-red-600" />
-                  <a href="mailto:info@aaliedltd.com" className="hover:text-red-600 transition duration-300">
-                    info@aaliedltd.com
+                  <a href="mailto:info@aalliedltd.com" className="hover:text-red-600 transition duration-300">
+                    info@aalliedltd.com
                   </a>
                 </li>
                 <li className="flex items-center gap-3">

@@ -63,8 +63,8 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300 flex flex-col items-center">
               <li className="flex items-center gap-2">
                 <Mail size={18} className="text-red-600" />
-                <a href="mailto:info@aaliedltd.com" className="hover:text-red-600 transition duration-300">
-                  info@aaliedltd.com
+                <a href="mailto:info@aalliedltd.com" className="hover:text-red-600 transition duration-300">
+                  info@aalliedltd.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
