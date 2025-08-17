@@ -53,7 +53,7 @@ const projects = [
   },
     {
     img: Project8,
-    title: 'REHABILITATION OF WATER SUPPLY NETWORK AT KRPC, FOR DEAWOO',
+    title: 'REHABILITATION OF WATER SUPPLY NETWORK',
     description: 'Comprehensive upgrade of the water supply system at KRPC, executed for Daewoo.',
     category: 'Infrastructure',
 
