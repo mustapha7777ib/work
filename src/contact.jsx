@@ -136,6 +136,9 @@ export default function Contact() {
                   <a href="tel:+1234567890" className="hover:text-red-600 transition duration-300">
                     +234 803 701 4096
                   </a>
+                  <a href="tel:+1234567890" className="hover:text-red-600 transition duration-300">
+                    +234 803 428 4793
+                  </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <MapPin size={24} className="text-red-600" />

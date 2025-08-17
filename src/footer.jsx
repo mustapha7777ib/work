@@ -73,6 +73,12 @@ export default function Footer() {
                   +234 803 701 4096
                 </a>
               </li>
+              <li className="flex items-center gap-2">
+                <Phone size={18} className="text-red-600" />
+                <a href="tel:+2348034284793" className="hover:text-red-600 transition duration-300">
+                  +234 803 428 4793
+                </a>
+              </li>
             </ul>
           </motion.div>
         </div>

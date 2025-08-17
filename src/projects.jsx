@@ -5,6 +5,8 @@ import Project3 from './images/project-3.jpeg';
 import Project4 from './images/project-4.jpeg';
 import Project5 from './images/project-5.jpeg';
 import Project6 from './images/project-6.jpeg';
+import Project7 from './images/project-7.jpeg';
+import Project8 from './images/project-8.jpeg';
 
 const projects = [
   {
@@ -42,6 +44,19 @@ const projects = [
     title: 'CONSTRUCTION OF RADIO MAST AND SOLAR POWER FOR UFOMA COMMUNITY RADIO, UGHELLI, DELTA STATE.',
     description: 'A robust telecommunications mast engineered for durability and seamless connectivity.',
     category: 'Infrastructure',
+  },
+    {
+    img: Project7,
+    title: 'MULTIPURPOSE BUILDING FOR BIBLE SOCIETY OF NIGERIA IBADAN',
+    description: 'A modern multipurpose facility constructed for the Bible Society of Nigeria in Ibadan',
+    category: 'Institutional',
+  },
+    {
+    img: Project8,
+    title: 'REHABILITATION OF WATER SUPPLY NETWORK AT KRPC, FOR DEAWOO',
+    description: 'Comprehensive upgrade of the water supply system at KRPC, executed for Daewoo.',
+    category: 'Infrastructure',
+
   },
 ];
 
