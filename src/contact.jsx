@@ -47,7 +47,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-4">Get in Touch</h2>
           <div className="w-24 h-1 bg-red-600 mx-auto mb-6"></div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Have a project in mind? Contact AI Allied Limited to discuss your vision and let us bring it to life with our expertise.
+            Have a project in mind? Contact AI Allieds Limited to discuss your vision and let us bring it to life with our expertise.
           </p>
         </motion.div>
 
@@ -127,8 +127,8 @@ export default function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3">
                   <Mail size={24} className="text-red-600" />
-                  <a href="mailto:info@aalliedltd.com" className="hover:text-red-600 transition duration-300">
-                    info@aalliedltd.com
+                  <a href="mailto:info@alliedsltd.com" className="hover:text-red-600 transition duration-300">
+                    info@alliedsltd.com
                   </a>
                 </li>
                 <li className="flex items-center gap-3">

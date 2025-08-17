@@ -19,7 +19,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-4">About AI Allied Limited</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-4">About AI Allieds Limited</h2>
           <div className="w-24 h-1 bg-red-600 mx-auto"></div>
         </motion.div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -32,7 +32,7 @@ export default function About() {
           >
             <img
               src={Project1}
-              alt="AI Allied Limited construction workers"
+              alt="AI  Limited construction workers"
               className="rounded-2xl shadow-2xl w-full h-auto object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
