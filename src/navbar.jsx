@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className={`fixed top-0 w-full bg-[#F8F1E9]/${scrolled ? '95' : '80'} backdrop-blur-sm shadow-md z-50 transition-all duration-300`}
+      className={`fixed top-0 w-full bg-[#F8F1E9]/${scrolled ? '95' : '80'} backdrop-blur-xl shadow-md z-50 transition-all duration-300`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -63,7 +63,7 @@ export default function Navbar() {
       </div>
       {isOpen && (
         <motion.div
-          className="md:hidden bg-[#F8F1E9]${scrolled ? '95' : '80'}"
+          className="md:hidden bg-[#F8F1E9"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
